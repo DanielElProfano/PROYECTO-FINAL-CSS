@@ -1,0 +1,168 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: arial;
+	background-color: #f1f1e0;
+}
+div#general{
+
+	margin:auto;
+	
+	padding: 0,5em;
+	
+	width: 1400px;
+	/*height:auto;*/
+	background-color: #f1f1e0;
+	
+	
+
+}
+div#encabezado{
+	width: 1400px;
+	height: 100px;
+	background-color: #7f8543;
+	position: fixed;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+h1{
+	clear: all;
+	color: white;
+	background-color: #7f8543;
+	font-size: 50px;
+	margin:20px 0px 0px 100px;
+	padding-left: 20px;
+}
+#menu{
+float: right;
+margin-top: -50px;
+margin-right: 20px;
+	
+}
+#menu li{
+	margin-right: 0px;
+	background-color: #8f9553;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px;
+	float: left;
+	display: inline;
+}
+#menu li:hover {
+	 background-color:yellow;
+	 margin-top: -2;
+	 padding-bottom: 12px;
+
+}
+div#cuerpo-columnas{
+	width: 100%;
+	height:75%;
+	padding-top: 120px;
+}
+div#navegador{
+	width: 20%;
+	height: 100%;
+	background-color: #f1f1e0;
+	float: left;
+	box-sizing: border-box;
+}
+div#contenido{
+	width: 60%;
+	height: auto;
+	background-color: #f1f1e0;
+	float:left;
+	
+}
+div#aside{
+	margin:auto;
+	height: auto;
+	width: 20%;
+	height: 100%;
+	background-color:#f1f1e0;
+	float: left;
+}
+.columnas img{
+	width: 50%;
+
+}
+table tr > td {
+	text-align: center;
+}
+table tr>td img{
+	width: 60%;
+	max-height: 40%;
+	object-fit: cover;
+    object-position: center center;
+
+}
+.mineral-box{
+	padding: 10px 10px;
+	overflow:hidden;
+	margin: 10px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+}
+.tabla-caracteristicas{
+	
+	float:right;
+	border-style: solid;
+	border-width: 1px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+	background-color: #7f8543;
+
+}
+h3{
+	margin-bottom: 10px;
+	
+
+}
+h4{font-weight: normal;}
+hr{
+	color:black;
+	margin-bottom: 10px;
+
+}
+.cabecera{
+	text-align:center;
+	background-color:#7fa998;
+	color:black;
+	color:white;
+	padding: 0px;
+	margin: 0px;
+}
+.mineral-box h4{
+	float: left;
+	width: 50%;
+}
+#redes{
+	margin: auto;
+	margin-top: 50px 10px 0px 10px;
+	padding: 20px;
+	border-style: solid;
+}
+#redes img{
+
+	padding: 20px 20px;
+	width: 30%;
+}
+footer{
+	clear:both;
+	margin: auto;
+	width: 1400px;
+	height: 100px;
+	background-color: #7f8543;
+	
+	border-radius: 10px;
+	
+
+}
+footer >h3{font-weight: 15px;
+	color: white;
+	
+}
+}
+
+
